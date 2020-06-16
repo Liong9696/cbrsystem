@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","dbphpsearch");
+$con = mysqli_connect("db4free.net","liong_456","liong_456","dbphpsearch");
 $request = mysqli_real_escape_string($con, $_POST["query"]);
 $query = "SELECT DISTINCT p_title FROM problem WHERE p_title LIKE '%".$request."%'";
     
