@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost","root","","dbphpsearch") or die(mysqli_error($con));
+    $con = mysqli_connect("db4free.net","liong_456","liong_456","dbphpsearch") or die(mysqli_error($con));
     $query = "SELECT searchTitle, searchDate FROM search ORDER BY searchTitle";
     $result = mysqli_query($con, $query);
 ?>
