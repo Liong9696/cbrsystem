@@ -51,7 +51,7 @@ echo "<p>Report From Date ".$_POST['from_date']." To ".$_POST["to_date"]."</p><b
   {
     $from_date = $_POST['from_date'];
     $to_date = $_POST['to_date'];
-    $con = mysqli_connect("localhost","root","","dbphpsearch");
+    $con = mysqli_connect("db4free.net","liong_456","liong_456","dbphpsearch");
     $output = '';
     $query = "SELECT searchTitle, searchDate, COUNT(searchTitle) AS cnt FROM search WHERE searchDate BETWEEN '$from_date' AND '$to_date 23:59:59' GROUP BY searchTitle ORDER BY cnt DESC";
     $result = mysqli_query($con, $query);
