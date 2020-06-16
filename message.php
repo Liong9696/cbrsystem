@@ -47,7 +47,7 @@
             <h1 class="heading">Messages</h1>
             <br>
 <?php
-    $con = mysqli_connect("localhost","root","","dbphpsearch");
+    $con = mysqli_connect("db4free.net","liong_456","liong_456","dbphpsearch");
     $query = "SELECT * FROM contact";
     $result = mysqli_query($con, $query);
 ?>
