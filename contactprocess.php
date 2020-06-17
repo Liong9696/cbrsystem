@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("db4free.net","liong_456","liong_456","dbphpsearch") or die(mysqli_error($con));
+$con = mysqli_connect("ryvdxs57afyjk41z.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","n4rtw9oyycy54r3n","kw96kfvkw3ae94vy","nyrcls6o28ze1y39") or die(mysqli_error($con));
 
 $name = '';
 $email = '';
