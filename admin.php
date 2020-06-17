@@ -52,7 +52,13 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="img/cs.jpg">
+            <img style="height: 100%;" class="d-block img-fluid" src="img/cs.jpg">
+          </div>
+          <div class="carousel-item">
+            <img style="height: 100%;" class="d-block img-fluid" src="img/background6.jpg">
+          </div>
+          <div class="carousel-item">
+            <img style="height: 100%;" class="d-block img-fluid" src="img/background7.jpg">
           </div>
         </div>
         <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
@@ -66,7 +72,7 @@
       </div>
 </div>
 
-<div class="carousel-caption">
+<div class="title col-md-4">
     <h1 class="fade-in"><p class="text-black">Welcome to Client Service of Telekom Malaysia</p></h1>
 </div>
 <div class="search-box">
@@ -77,6 +83,18 @@
 </button>
 </form>
 </div>
+    
+      <!-- START FOOTER -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        <span>Copyright © 2020 
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4">Liong</a></span>
+        </div>
+        </div>
+    </div>
+  </footer>
+    <!-- END FOOTER -->
 </body>
 </html>
 
