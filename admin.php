@@ -73,7 +73,7 @@
 </div>
 
 <div class="title col-md-4">
-    <h1 class="fade-in"><p class="text-black">Welcome to Client Service of Telekom Malaysia</p></h1>
+    <h1 class="fade-in"><p class="text-black">Welcome to Client Service of Telekom Malaysia</p></h1><br>
 </div>
 <div class="search-box">
 <form action="search.php" method="GET">
