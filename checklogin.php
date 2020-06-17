@@ -18,10 +18,10 @@ and password= '$password'";
  $rows = mysqli_num_rows($result);
       if($rows==1){
      $_SESSION['username'] = $username;
-      header('refresh:0; url=http://localhost/CBRsystem/login.php?success=1');
+      header('refresh:0; url=http://cbrsystem.com/login.php?success=1');
          }
       else{
-      header('refresh:0; url=http://localhost/CBRsystem/login.php?error=1');
+      header('refresh:0; url=http://cbrsystem.com/login.php?error=1');
  }
 }
 ?>
