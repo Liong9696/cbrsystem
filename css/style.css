@@ -80,12 +80,12 @@ p
     }
 }
 
-.carousel-caption
+.container
 {
+    right: 65%;
     position: absolute;
     transform: translate(70%,-100%);
-    text-align: justify;
-    width: 500px;
+    text-align: center;
 }
 
 .search-box
@@ -160,6 +160,15 @@ p
     color: black;
     background-color: rgb(233, 233, 233);
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
+}
+
+.title
+{
+    position: absolute;
+    text-align: center;
+    margin-left: 43%;
+    bottom: 75%;
+    height: 0;
 }
