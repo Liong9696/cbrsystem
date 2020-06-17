@@ -71,8 +71,8 @@
       </div>
 </div>
 
-<div class="carousel-caption">
-    <h1 class="fade-in"><p class="text-black" style="overflow: hidden;">Welcome to Client Service of Telekom Malaysia</p></h1>
+<div class="title col-md-4">
+    <h1 class="fade-in"><p class="text-black">Welcome to Client Service of Telekom Malaysia</p></h1>
 </div>
 
 <div class="search-box">
@@ -83,6 +83,18 @@
 </button>
 </form>
 </div>
+    
+  <!-- START FOOTER -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        <span>Copyright © 2020 
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4">Liong</a></span>
+        </div>
+        </div>
+    </div>
+  </footer>
+    <!-- END FOOTER -->
 </body>
 </html>
 
@@ -109,15 +121,3 @@ $(document).ready(function(){
 });
 </script>
 
-
-  <!-- START FOOTER -->
-  <footer class="page-footer">
-    <div class="footer-copyright">
-      <div class="container">
-        <span>Copyright © 2020 
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4">Liong</a></span>
-        </div>
-        </div>
-    </div>
-  </footer>
-    <!-- END FOOTER -->
