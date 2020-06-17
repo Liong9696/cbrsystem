@@ -16,6 +16,6 @@ $message = '';
         $query=mysqli_query($con,$insert) or die(mysqli_error($con));
 
         echo "<script type='text/javascript'>alert('Submit successfully!')</script>";
-        header('refresh:0; url=http://localhost/CBRsystem/contactus.php');
+        header('refresh:0; url=http://cbrsystem.com/contactus.php');
     }
 ?>
